@@ -73,14 +73,14 @@ h1 {
 }
 ```
 
-Here's what that code looks like rendered in both browsers:
+Here's what that code looks like rendered in Chrome and Safari, side by side:
 
 ![](images/comparison.png)
 
 #### Discussion
 Having stripped away extraneous detail, commented out existing positioning adjustments, and added colors and borders for clarity, we can now see the problem more clearly.
 
-Safari, it turns out, is rendering the code pretty much exactly as indended, but in Chrome, the red box (the span with the `rotating-line` class) is pushed down away from its enclosing element while the blue box (`rotating-words`) isn't.
+Safari, it turns out, is rendering the code pretty much exactly as indended, but in Chrome, the box outlined in red (the span with the `rotating-line` class) is pushed down away from its enclosing element while the blue-outlined box (`rotating-words`) isn't.
 
 Looking at the CSS `display` rules gives us some idea why: The outer red box is set to `inline`, while the inner blue box is set to `inline-block`. Perhaps this is where the browsers disagree? Differing interpretations on how to render an `inline-block` element nested inside an `inline` element on the same line?
 
