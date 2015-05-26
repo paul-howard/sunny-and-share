@@ -2,7 +2,10 @@
 ### Description
 The web site of an online development firm (we'll call it “Sunny Interactive”) uses a CSS animation to fade/scroll in/out an array of different words onto a blank line. It’s an impressive little bit of code that looks cool on the screen, but there’s a small problem—while it looks great in the latest versions of Google Chrome and Firefox:
 
+<figure>
 ![](images/chrome-max-width-768.png)
+<figcaption>What CSS bug?</figcaption>
+</figure>
 
 ...unfortunately, Safari (being an Apple product) has to go and "[Think Different](https://youtu.be/tjgtLSHhTPg)."
 
