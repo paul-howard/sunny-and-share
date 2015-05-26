@@ -1,0 +1,38 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	margin-top: 2em;
+}
+h1 {
+	text-align: center;
+	font-size: 30px;
+	outline: 1px solid black;
+}
+.rotating-line {
+	display: inline-block;
+	position: relative;
+	color: red;
+	/* outline: 1px solid red; */
+}
+.rotating-words {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	line-height: 1.2;
+	color: blue;
+	/* outline: 1px solid blue; */
+	vertical-align: bottom;
+	top: 0.1em;
+}
+.rotating-words span {
+	position: absolute;
+	opacity: 0.2;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+	color: green;
+	/* outline: 1px solid green; */
+	bottom: 0.1em;
+}
