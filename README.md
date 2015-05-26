@@ -105,4 +105,4 @@ To fix the one tiny flaw in their otherwise stellar web site, all the good peopl
 2. Remove all existing position-adjusting rules.
 3. Add the following rules:
 	- `.rotating-words { vertical-align: bottom; top: 0.1em; }`
-	- `.rotating-words span { bottom: 0.01em; }`
+	- `.rotating-words span { bottom: 0.1em; }`
